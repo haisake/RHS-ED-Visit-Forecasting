@@ -1,5 +1,3 @@
-Intialize the Git Repository
-Add Nayef as a Contributor
 Sketch out the project inputs/outputs/features
 Revisit for a design of the final output and or get coastals report and clone it
 Add details after sketching
