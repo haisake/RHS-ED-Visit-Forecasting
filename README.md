@@ -11,10 +11,11 @@ The goal here is not to produce a highly accurate *predictive* algorithm, but ra
 # Proposed file structure for R scripts 
 
 1. *data-pull-and-cleaning.R*: Script for connecting to denodo, pulling in daily ED visits data, and cleaning it up. Final result should be a dataframe with the following columns: 
- $ date           : Date, 
- $ years_from_2017: int
- $ month          : Factor 
- $ year           : Factor 
- $ weekday        : Factor 
- $ ed_visits      : int  
- $ lag_ed_visits  : int  
+
+* $ date : Date, 
+* $ years_from_2017: int
+* $ month : Factor: 1, 2, 3, ...
+* $ year : Factor: "2017", "2018", ...
+* $ weekday : Factor: "Monday", ...
+* $ ed_visits : int  
+* $ lag_ed_visits : int  
